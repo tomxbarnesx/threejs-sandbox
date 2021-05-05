@@ -75,6 +75,6 @@ export default function ThreeJSCanvas() {
   }, [])
 
   return (
-    <div ref={threeRef} />
+    <div style={{position: "absolute",top: 0}} ref={threeRef} />
   )
 }
